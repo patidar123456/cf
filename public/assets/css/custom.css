@@ -1,0 +1,316 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
+.Toastify__toast {
+  border-radius: 5px !important;
+}
+
+.Toastify__toast-body {
+  text-align: center !important;
+}
+
+.Toastify__close-button {
+  position: relative;
+  top: -7px;
+}
+
+.bg_nav_01 {
+  background-color: #f7f7f7;
+}
+
+.bg_white {
+  background-color: white;
+}
+
+.color_white {
+  color: white;
+}
+
+.color_black {
+  color: black !important;
+}
+
+.nav_search .form_control {
+  height: 42px;
+  border: 1px solid #efefef;
+}
+
+.nav_search .nice-select {
+  margin-left: 0 !important;
+  min-width: 250px;
+  width: 100%;
+}
+
+.nav_search .search_inp_div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 535px;
+}
+
+.nav_search .search_title {
+  min-width: 150px;
+  font-weight: 400;
+  color: black;
+}
+
+.nav_search .search_inp {
+  width: 100%;
+}
+
+.nav_search .search_inp,
+.nav_search .search_inp .MuiInputBase-root {
+  border-radius: 50px 0px 0px 50px !important;
+}
+
+.login_link a {
+  min-width: 100px;
+}
+
+.nav_search .nice-select .option {
+  margin-left: 0 !important;
+}
+
+.nav_search button.search_btn {
+  border-radius: 0px 50px 50px 0px;
+  height: 40px;
+  padding: 10px 20px 14px 16px;
+  color: #828282;
+  background-color: #f7f7f7;
+  border: 1px solid #c4c4c4;
+  border-left: none;
+  font-size: 20px;
+}
+
+.newsletter-wrapper-one {
+  margin-bottom: -125px;
+  margin-top: 0px;
+}
+
+.newsletter-wrapper-one-bottom-bar {
+  height: 125px;
+  width: 100%;
+  background-color: #121416;
+}
+
+.header-area-one .header-navigation .site-branding .brand-logo {
+  background-color: transparent;
+}
+
+.hero-content .tags a {
+  border: 1px solid #ff344f;
+  background: #ff344f;
+  padding: 0 10px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.header-area-one .header-navigation .site-branding .brand-logo {
+  padding: 8px 10px;
+}
+
+.non_thumb_offer {
+  width: 100%;
+  background-color: #e8e8e8;
+  color: #807f7f;
+  font-size: 18px;
+  padding: 18px 22px;
+  height: 175px;
+  border-radius: 5px 5px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-align: center;
+}
+
+.listing-grid-one .listing-thumbnail img {
+  height: 175px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Offer details modal - start */
+.Offer_Details_Popup_Outer .MuiPaper-elevation {
+  border-radius: 0px;
+}
+
+.Offer_Details_Popup {
+  padding: 0px !important;
+}
+
+.Offer_Details_Popup_Footer {
+  padding: 0px !important;
+}
+
+.Offer_Details .sub_title {
+  width: 100%;
+  background-color: #e8e8e8;
+  color: #807f7f;
+  padding: 18px 22px;
+  font-size: 18px;
+  /* border-radius: 3px; */
+  text-align: center;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.Offer_Details .date_div {
+  font-size: 12px;
+}
+
+.Offer_Details .date_div b {
+  color: black;
+}
+
+.Offer_Details .brand_list {
+  color: #ff344f;
+  font-weight: 600;
+}
+
+.Offer_Details .provider_NM {
+  padding: 4px 10px;
+  background-color: #ffa4b1;
+  color: white;
+  font-size: 14px;
+  /* border-radius: 3px; */
+}
+
+.Offer_Details .card_NM {
+  padding: 4px 10px;
+  background-color: #ffd74e;
+  font-size: 14px;
+  /* border-radius: 3px; */
+}
+
+.Offer_Details .Eligable_BTN {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #e8e8e8;
+  padding: 0px 16px;
+  border: 1px solid #d1d1d1;
+  /* border-radius: 3px; */
+}
+
+.Offer_Details .link_BTN {
+  background-color: #ff344f;
+  color: white;
+  width: 100%;
+  /* border-radius: 3px; */
+  padding: 8px 10px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.Offer_Details .disabled_link_BTN {
+  background-color: #e8e8e8;
+  color: #a8a8a8;
+  width: 100%;
+  border-radius: 3px;
+  padding: 4px 10px;
+  text-align: center;
+  user-select: none;
+}
+
+/* Offer details modal - end */
+
+.Disclaimer_sec {
+  font-size: 12px;
+}
+
+/* image upload & preview */
+.fileDragArea {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #3f51b512;
+  border-radius: 4px;
+  border: 1px #c4c4c4 dashed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fileDragArea input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.AddMoreBtnDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.AddMoreBtnDiv button {
+  width: 100%;
+  position: relative;
+}
+
+.AddMoreBtnDiv button input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.fileDragArea div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fileDragArea .iconDiv {
+  padding: 8px 0px;
+}
+
+.fileDragArea .fileupTxt {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.fileDragArea img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.fileDragArea .imgPrevOuter {
+  height: 100%;
+  position: relative;
+  border: 1px dashed grey;
+  border-radius: 4px;
+}
+
+.fileDragArea .imgRemove {
+  height: 35px;
+  width: 35px;
+  background-color: #f44336;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0px 4px;
+  cursor: pointer;
+}
+
+.top_drawer .MuiPaper-root {
+  width: 100% !important; 
+}
